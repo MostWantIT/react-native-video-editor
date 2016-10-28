@@ -1,6 +1,9 @@
 # react-native-video-editor
 Video editor tools for React-Native
 
+# Installation
+Comming soon.
+
 # ToDo
 **iOS**
 - [x] Merge video's
