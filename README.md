@@ -43,7 +43,7 @@ RNVideoEditor.merge(
     alert('Error: ' + results);
   },
   (results, file) => {
-    //alert('Success : ' + results + " file: " + file);
+    alert('Success : ' + results + " file: " + file);
   }
 );
 ```
