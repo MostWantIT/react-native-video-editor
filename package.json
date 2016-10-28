@@ -3,6 +3,8 @@
   "name": "react-native-video-editor",
   "version": "0.0.1",
   "description": "",
+  "repository": "MostWantIT/react-native-video-editor",
+  "author": "Michel Antonides <michel@mostwantit.nl>",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
