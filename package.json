@@ -1,10 +1,9 @@
-
 {
   "name": "react-native-video-editor",
-  "version": "0.0.1",
+  "version": "0.0.2-0",
   "description": "",
   "repository": "MostWantIT/react-native-video-editor",
-  "author": "Michel Antonides <michel@mostwantit.nl>",
+  "author": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -12,11 +11,9 @@
   "keywords": [
     "react-native"
   ],
-  "author": "",
   "license": "",
   "peerDependencies": {
     "react-native": "^0.29.0",
     "react-native-windows": "^0.29.0"
-
   }
 }
