@@ -33,15 +33,6 @@
       compile project(':react-native-video-editor')
   	```
 
-#### Windows
-[Read it! :D](https://github.com/ReactWindows/react-native)
-
-1. In Visual Studio add the `RNVideoEditor.sln` in `node_modules/react-native-video-editor/windows/RNVideoEditor.sln` folder to their solution, reference from their app.
-2. Open up your `MainPage.cs` app
-  - Add `using Cl.Json.RNVideoEditor;` to the usings at the top of the file
-  - Add `new RNVideoEditorPackage()` to the `List<IReactPackage>` returned by the `Packages` method
-
-
 ## Usage
 ```javascript
 import RNVideoEditor from 'react-native-video-editor';
