@@ -37,6 +37,13 @@
 ```javascript
 import RNVideoEditor from 'react-native-video-editor';
 
-// TODO: What do with the module?
-RNVideoEditor;
+RNVideoEditor.merge(
+  ['videourl.mp4', 'video2url.mp4'],
+  (results) => {
+    alert('Error: ' + results);
+  },
+  (results, file) => {
+    alert('Success : ' + results + " file: " + file);
+  }
+);
 ```
