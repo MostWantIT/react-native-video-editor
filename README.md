@@ -2,10 +2,10 @@
 Video editor tools for React-Native
 
 # ToDo
-**bold** iOS
+**iOS**
 - [x] Merge video's
 - [ ] Rotate video
 
-**bold** Android
+**Android**
 - [ ] Merge video's
 - [ ] Rotate video
