@@ -2,8 +2,8 @@
 Video editor tools for React-Native
 
 # ToDo
-## iOS
-[x] Merge video's
+*bold* iOS
+- [x] Merge video's
 
-## Android
-[ ] Merge video's
+*bold* Android
+- [ ] Merge video's
