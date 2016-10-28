@@ -8,7 +8,9 @@
   },
   "dependencies": {
     "react": "15.3.2",
-    "react-native": "0.36.0"
+    "react-native": "0.36.0",
+    "react-native-camera": "git+https://github.com/lwansbrough/react-native-camera.git",
+    "react-native-video": "^0.9.0"
   },
   "jest": {
     "preset": "jest-react-native"
