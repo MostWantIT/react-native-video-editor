@@ -2,7 +2,7 @@
 Video editor tools for React-Native
 
 # Installation
-Comming soon.
+Coming soon.
 
 # ToDo
 **iOS**
