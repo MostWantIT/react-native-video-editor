@@ -1,4 +1,3 @@
-
 # react-native-video-editor
 
 ## Getting started
@@ -50,4 +49,3 @@ import RNVideoEditor from 'react-native-video-editor';
 // TODO: What do with the module?
 RNVideoEditor;
 ```
-  
