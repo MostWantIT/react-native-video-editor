@@ -1,4 +1,5 @@
 # react-native-video-editor
+Module for react native to merge multiple video.
 
 ## Getting started
 
@@ -47,3 +48,12 @@ RNVideoEditor.merge(
   }
 );
 ```
+## To do
+
+**iOS**
+- [x] Merge multiple video
+- [ ] Rotate video
+
+**Android**
+- [x] Merge multiple video
+- [ ] Rotate video
