@@ -11,7 +11,7 @@
     "react-native": "0.36.0",
     "react-native-camera": "git+https://github.com/lwansbrough/react-native-camera.git",
     "react-native-video": "^0.9.0",
-    "react-native-video-editor": "0.0.1"
+    "react-native-video-editor": "../"
   },
   "jest": {
     "preset": "jest-react-native"
