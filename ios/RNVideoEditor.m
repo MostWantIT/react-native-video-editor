@@ -43,6 +43,7 @@ RCT_EXPORT_METHOD(merge:(NSArray *)fileNames
                                                                         preferredTrackID:kCMPersistentTrackID_Invalid];
     
     CMTime insertTime = kCMTimeZero;
+    CGAffineTransform originalTransform;
     
     for (id object in fileNames)
     {
@@ -62,10 +63,17 @@ RCT_EXPORT_METHOD(merge:(NSArray *)fileNames
                               error:nil];
         
         insertTime = CMTimeAdd(insertTime,asset.duration);
+        
+        // Get the first track from the asset and its transform.
+        NSArray* tracks = [asset tracks];
+        AVAssetTrack* track = [tracks objectAtIndex:0];
+        originalTransform = [track preferredTransform];
     }
     
-    CGAffineTransform rotationTransform = CGAffineTransformMakeRotation(M_PI_2);
-    videoTrack.preferredTransform = rotationTransform;
+    // Use the transform from the original track to set the video track transform.
+    if (originalTransform.a || originalTransform.b || originalTransform.c || originalTransform.d) {
+        videoTrack.preferredTransform = originalTransform;
+    }
     
     NSString* documentsDirectory= [self applicationDocumentsDirectory];
     NSString * myDocumentPath = [documentsDirectory stringByAppendingPathComponent:@"merged_video.mp4"];
