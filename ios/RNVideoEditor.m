@@ -1,17 +1,16 @@
-
 #import "RNVideoEditor.h"
 
 @implementation RNVideoEditor
+
+RCT_EXPORT_MODULE();
 
 - (dispatch_queue_t)methodQueue
 {
     return dispatch_get_main_queue();
 }
-RCT_EXPORT_MODULE()
 
-RCT_EXPORT_METHOD(merge:(NSArray *)fileNames
-                  errorCallback:(RCTResponseSenderBlock)failureCallback
-                  callback:(RCTResponseSenderBlock)successCallback) {
+
+RCT_EXPORT_METHOD(merge:(NSArray *)fileNames errorCallback:(RCTResponseSenderBlock)failureCallback callback:(RCTResponseSenderBlock)successCallback) {
     
     NSLog(@"%@ %@", NSStringFromClass([self class]), NSStringFromSelector(_cmd));
     
@@ -117,4 +116,3 @@ RCT_EXPORT_METHOD(merge:(NSArray *)fileNames
 }
 
 @end
-  
