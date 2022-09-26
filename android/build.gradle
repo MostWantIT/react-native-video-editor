@@ -20,6 +20,6 @@ android {
 }
 
 dependencies {
-    compile 'com.facebook.react:react-native:0.20.+'
-    compile 'com.googlecode.mp4parser:isoparser:1.1.21'
+    implementation  'com.facebook.react:react-native:0.20.+'
+    implementation  'com.googlecode.mp4parser:isoparser:1.1.21'
 }
